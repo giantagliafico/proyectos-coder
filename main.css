@@ -1,0 +1,366 @@
+nav{
+    background-color: rgb(241, 222, 225);
+}
+/*estilo fondo navegacion*/
+.titulo {
+   text-align: center;
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 25px;
+   
+   
+}
+/*estilo titulo index*/
+ul{
+    
+    list-style-type: none;
+    display: flex;
+   flex-direction: column;
+    
+    
+}
+/*estilo lista index*/
+.tituloproductos{
+    text-align: center;
+    font-family:  'Whisper', cursive;
+    font-size: 40px;
+    color: rgb(226, 148, 160);
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    border-color:rgb(241, 222, 225)  ;
+}
+.imagen{
+width: 200px;
+height: 200px;
+margin: 60px;
+}
+/* estilo main index */
+
+.titulo{
+ 
+    justify-content: center;
+}
+
+
+
+.tituloheader{
+    text-align: center;
+     ;
+     color:rgb(236, 176, 185) ;
+     font-family: 'Lora', serif ;
+     
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-color:rgb(241, 222, 225)
+}
+aside{
+    background-color: rgb(224, 161, 182);
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+
+.footerfondo{
+    background-image: url(OPzs9Dn46MV1nt5g7XN9.jpg);
+
+}
+.instagram{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.titulofooter{
+    text-align: center;
+    font-family:'Lora', serif ;
+    color:rgb(236, 176, 185)  ;
+}
+/*estilos footer index*/
+.contenedor3{
+    
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    border: solid;
+    border-color:rgb(241, 222, 225) ;
+}
+
+.h5{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-sobre{
+    background-color: rgb(247, 196, 213);
+}
+.imagenjoya{
+    width: 200px;
+}
+
+.titulosobre{
+    font-size: 15px;
+    text-align: start;
+    font-family:'Lora', serif ;
+    color:rgb(236, 176, 185) ;
+}
+.h4sobre{
+    font-size: 15px;
+    text-align: center;
+    font-family:'Lora', serif ;
+    color:rgb(236, 176, 185) 
+}
+
+.textosobre{
+    font-size: 15px;
+    text-align: center;
+    font-family:'Grape Nuts', serif ;
+} 
+/*estilo html sobre nicol*/ 
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+.regalos{
+    width: 200px;
+height: 200px;
+margin: 90px;
+}
+
+.tituloregalos{
+    text-align: center;
+    font-family:  'Nanum Myeongjo', serif
+}
+
+.tituloregalos{
+    font-size: 30px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif; 
+}
+
+.bodyregalos{
+   background-color:rgb(247, 146, 161) ;
+
+}
+/*estilos html regalos*/
+.bodyrelojes{
+    background-image: url(090ae2be-42af-4c0a-89d0-6eb21b081563.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.contenedor5{
+   display: flex;
+   flex-wrap: wrap;
+}
+.lista-relojes{
+    background-color: rgb(226, 151, 176);
+    display: flex;
+    flex-direction: column;
+    list-style-type:disc;
+    margin: 60px;
+    font-size: 20px;
+}
+.imagenesreloj{
+    width: 200px;
+    height: 200px;
+    margin: 60px;
+}
+.tituloreloj2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(204, 192, 192)
+}
+.tituloreloj{
+text-align: center;
+font-family: 'Dancing Script', sans-serif;
+font-size: 100px;
+color: rgb(195, 153, 216);
+}
+/*estilo html relojes*/
+.contenedor7{
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-joyas{
+    background-color: rgb(226, 151, 176);
+    display: flex;
+    flex-direction: column;
+    list-style-type:disc;
+    margin: 60px;
+    font-size: 20px;
+}
+.imagenesjoyas{
+width: 200px;
+height: 200px;
+margin: 60px;
+}
+.titulojoyas2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+.titulojoyas{
+    text-align: center;
+    color: rgb(207, 107, 207);
+    font-size: 60px;
+    font-family: 'Beau Rivage', sans-serif;
+}
+.bodyjoyas{
+    background-image: url( 36dbc978-8411-41c8-ab08-4e2eb06f528e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*estilo html joyas*/
+
+.englobador-index{
+    display: grid;
+    grid-template-areas: 
+    "nav nav"
+    "main main"
+    "aside aside"
+    "header header"
+    "footer footer";
+
+}
+
+
+
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}  
+aside{
+    grid-area: aside;
+} 
+header{
+    grid-area: header;
+}   
+footer{
+    grid-area: footer;
+}
+/*grid y grids area del index*/
+    @media screen and (min-width:768px){
+    .contenedor3{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid;
+        border-color:rgb(241, 222, 225) ;
+    }
+    .imagenjoya{
+        width: 400px;
+        ;
+    
+    }
+    .titulosobre{
+        font-size: 20px;
+        text-align: center;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185) ;
+    }
+    .h4sobre{
+        font-size: 15px;
+        text-align: center;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185) 
+    }
+    
+    .textosobre{
+        font-size: 30px;
+        text-align: center;
+        font-family:'Grape Nuts', serif ;
+    }
+    /*responsive html sobre nosotros*/
+    .englobador-index{
+        display: grid;
+        grid-template-areas: 
+        "nav nav"
+        "main aside"
+        "header header"
+        "footer footer";
+    
+    }
+    ul{
+    
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .imagen{
+        width: 500px;
+        height: 500px;
+        margin: 60px;
+
+    /*responsive index*/
+
+    .regalos{
+        
+        width: 500px;
+        height: 500px;
+        margin: 60px;
+    }
+    /*responsive html regalos*/
+    .imagenesreloj{
+        width: 500px;
+        height: 500px;
+        margin: 60px;
+    }
+    .tituloreloj2{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: rgb(34, 28, 28)
+    }
+    /*responsive html relojes*/
+
+    @media screen and (min-width:1024px){
+    .contenedor3{
+    
+        display: flex;
+        flex-direction: row;
+        border: solid;
+        border-color:rgb(241, 222, 225) ;
+    }
+    .imagenjoya{
+        width: 500px;
+    height: auto    ;
+    margin: 60px;
+    }
+    .titulosobre{
+        font-size: 20px;
+        text-align: center;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185) ;
+    }
+    .h4sobre{
+        font-size: 20px;
+        text-align: center;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185) 
+    }
+    
+    .textosobre{
+        font-size: 30px;
+        text-align: center;
+        font-family:'Grape Nuts', serif ;
+    }
+    /*responsive html sobre nosotros +1024px*/
+    .contenedor4{
+        display: flex;
+        justify-content: center;
+    }
