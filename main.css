@@ -11,12 +11,47 @@ nav{
 }
 /*estilo titulo index*/
 ul{
-    
+
     list-style-type: none;
-    display: flex;
-   flex-direction: column;
+    display: grid;
+    grid-template-columns: 5,0.5fr;
+
     
     
+    
+}
+
+.item{
+    
+    background-color: rgb(2, 1, 1);
+    display:inline-flex;
+    width: 90px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s,ease ;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.item::after{
+content:"" ;
+color: #fff;
+width:100% ;
+height:100% ;
+position: absolute;
+z-index: 1;
+top: 0;
+ transition-duration: 1s;
+}
+.item:hover::after{
+    top: 80%;
+    transition-duration: 1s;
+    background-color: rgb(255, 255, 255);
+
 }
 /*estilo lista index*/
 .tituloproductos{
@@ -29,7 +64,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     border: solid;
-    border-color:rgb(241, 222, 225)  ;
+    border-color:rgb(185, 139, 147)  ;
 }
 .imagen{
 width: 200px;
@@ -63,7 +98,15 @@ aside{
     background-color: rgb(224, 161, 182);
     font-size: 20px;
     align-items: center;
-    
+
+
+
+}
+aside:hover{
+    background-color: rgb(240, 217, 221);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
 }
 
 
@@ -71,6 +114,7 @@ aside{
     background-image: url(OPzs9Dn46MV1nt5g7XN9.jpg);
 
 }
+
 .instagram{
     font-size: 50px;
     display: flex;
@@ -81,6 +125,11 @@ aside{
     text-align: center;
     font-family:'Lora', serif ;
     color:rgb(236, 176, 185)  ;
+}
+footer:hover{
+    transform: scale(3);
+    transition-delay: 1s;
+    transition-duration: 1s;
 }
 /*estilos footer index*/
 .contenedor3{
@@ -110,6 +159,11 @@ aside{
     font-family:'Lora', serif ;
     color:rgb(236, 176, 185) ;
 }
+.titulosobre:hover{
+    transform: scale(2);
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
 .h4sobre{
     font-size: 15px;
     text-align: center;
@@ -122,6 +176,11 @@ aside{
     text-align: center;
     font-family:'Grape Nuts', serif ;
 } 
+.h4sobre:hover{
+    transform: scale(2);
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+}
 /*estilo html sobre nicol*/ 
 .contenedor4{
     display: flex;
@@ -140,6 +199,7 @@ margin: 90px;
     text-align: center;
     font-family:  'Nanum Myeongjo', serif
 }
+
 
 .tituloregalos{
     font-size: 30px;
@@ -193,10 +253,11 @@ color: rgb(195, 153, 216);
 }
 .lista-joyas{
     background-color: rgb(226, 151, 176);
+    padding: auto;
     display: flex;
     flex-direction: column;
     list-style-type:disc;
-    margin: 60px;
+    margin: 0%;
     font-size: 20px;
 }
 .imagenesjoyas{
