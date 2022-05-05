@@ -1,4 +1,10 @@
+*
+body{
+margin: 0%;
+}
 nav{
+   padding: 0%;
+   margin: 0%;
     background-color: rgb(241, 222, 225);
 }
 /*estilo fondo navegacion*/
@@ -66,10 +72,18 @@ top: 0;
     border: solid;
     border-color:rgb(185, 139, 147)  ;
 }
-.imagen{
-width: 200px;
-height: 200px;
-margin: 60px;
+
+.card{
+    margin: 80px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    border-color: pink;
+}
+.card1{
+    height: 381px;
 }
 /* estilo main index */
 
@@ -245,6 +259,7 @@ text-align: center;
 font-family: 'Dancing Script', sans-serif;
 font-size: 100px;
 color: rgb(195, 153, 216);
+margin-top: 50px;
 }
 /*estilo html relojes*/
 .contenedor7{
