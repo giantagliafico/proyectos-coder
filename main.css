@@ -2,62 +2,15 @@
 body{
 margin: 0%;
 }
-nav{
-   padding: 0%;
-   margin: 0%;
-    background-color: rgb(241, 222, 225);
-}
-/*estilo fondo navegacion*/
-.titulo {
-   text-align: center;
-   font-family: 'Cormorant Garamond', serif;
-   font-size: 25px;
-   
-   
-}
-/*estilo titulo index*/
-ul{
 
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: 5,0.5fr;
 
-    
-    
-    
+.imagen-nav{
+height: 130px;
+width: 130px;
 }
 
-.item{
-    
-    background-color: rgb(2, 1, 1);
-    display:inline-flex;
-    width: 90px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: .3s,ease ;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-
-
-}
-.item::after{
-content:"" ;
-color: #fff;
-width:100% ;
-height:100% ;
-position: absolute;
-z-index: 1;
-top: 0;
- transition-duration: 1s;
-}
-.item:hover::after{
-    top: 80%;
-    transition-duration: 1s;
-    background-color: rgb(255, 255, 255);
-
+.navbar{
+background-color: rgb(255, 220, 242);
 }
 /*estilo lista index*/
 .tituloproductos{
@@ -65,14 +18,24 @@ top: 0;
     font-family:  'Whisper', cursive;
     font-size: 40px;
     color: rgb(226, 148, 160);
+    margin-left: 200px;
 }
 .contenedor{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: center;
     border: solid;
+    text-align: center;
+    align-items: center;
     border-color:rgb(185, 139, 147)  ;
 }
-
+section{
+    display: flex;
+    
+    justify-content:center ;
+    align-items: center;
+    margin-left: 200px;
+    
+}
 .card{
     margin: 80px;
 }
@@ -92,7 +55,10 @@ top: 0;
     justify-content: center;
 }
 
-
+.titulosobre{
+    display: flex;
+    justify-content: center;
+}
 
 .tituloheader{
     text-align: center;
@@ -108,45 +74,17 @@ top: 0;
     border: solid;
     border-color:rgb(241, 222, 225)
 }
-aside{
-    background-color: rgb(224, 161, 182);
-    font-size: 20px;
-    align-items: center;
-
-
-
+.item{
+    margin-left: 253px;
 }
-aside:hover{
-    background-color: rgb(240, 217, 221);
-    transition-property: all;
-    transition-duration: 1s;
-    transition-delay: 0.5s;
+.h5footer{
+    margin-left: 253px;
 }
 
 
-.footerfondo{
-    background-image: url(OPzs9Dn46MV1nt5g7XN9.jpg);
 
-}
-
-.instagram{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-}
-.titulofooter{
-    text-align: center;
-    font-family:'Lora', serif ;
-    color:rgb(236, 176, 185)  ;
-}
-footer:hover{
-    transform: scale(3);
-    transition-delay: 1s;
-    transition-duration: 1s;
-}
 /*estilos footer index*/
-.contenedor3{
+ .contenedor3{
     
     display: flex;
   flex-direction: column;
@@ -163,15 +101,37 @@ footer:hover{
 .lista-sobre{
     background-color: rgb(247, 196, 213);
 }
-.imagenjoya{
-    width: 200px;
+.imagenc{
+    width: 700px;
+    height: 500px;
 }
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 125vh;
+    height: 50vh;
+}
+.carousel-control-prev{
+    margin-left: 500px;
+    
+}
+.carousel-control-next{
 
+
+    margin-right: 600px;
+}
+.titulocarrusel{
+    display: flex;
+    align-items: center;
+}
 .titulosobre{
     font-size: 15px;
     text-align: start;
     font-family:'Lora', serif ;
     color:rgb(236, 176, 185) ;
+    margin-top: 100px;
 }
 .titulosobre:hover{
     transform: scale(2);
@@ -196,23 +156,17 @@ footer:hover{
     transition-duration: 0.5s;
 }
 /*estilo html sobre nicol*/ 
-.contenedor4{
-    display: flex;
-    flex-direction: column;
+.grid-colum{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin:0 auto;
     align-items: center;
- 
+   
 
 }
-.regalos{
-    width: 200px;
-height: 200px;
-margin: 90px;
-}
 
-.tituloregalos{
-    text-align: center;
-    font-family:  'Nanum Myeongjo', serif
-}
+
 
 
 .tituloregalos{
@@ -262,24 +216,14 @@ color: rgb(195, 153, 216);
 margin-top: 50px;
 }
 /*estilo html relojes*/
-.contenedor7{
-    display: flex;
-    flex-wrap: wrap;
+.grid-colum2{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin:0 auto;
 }
-.lista-joyas{
-    background-color: rgb(226, 151, 176);
-    padding: auto;
-    display: flex;
-    flex-direction: column;
-    list-style-type:disc;
-    margin: 0%;
-    font-size: 20px;
-}
-.imagenesjoyas{
-width: 200px;
-height: 200px;
-margin: 60px;
-}
+
+
 .titulojoyas2{
     text-align: center;
     color: black;
@@ -303,7 +247,7 @@ margin: 60px;
     grid-template-areas: 
     "nav nav"
     "main main"
-    "aside aside"
+  
     "header header"
     "footer footer";
 
@@ -317,9 +261,7 @@ nav{
 main{
     grid-area: main;
 }  
-aside{
-    grid-area: aside;
-} 
+
 header{
     grid-area: header;
 }   
@@ -327,116 +269,9 @@ footer{
     grid-area: footer;
 }
 /*grid y grids area del index*/
-    @media screen and (min-width:768px){
-    .contenedor3{
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: solid;
-        border-color:rgb(241, 222, 225) ;
-    }
-    .imagenjoya{
-        width: 400px;
-        ;
-    
-    }
-    .titulosobre{
-        font-size: 20px;
-        text-align: center;
-        font-family:'Lora', serif ;
-        color:rgb(236, 176, 185) ;
-    }
-    .h4sobre{
-        font-size: 15px;
-        text-align: center;
-        font-family:'Lora', serif ;
-        color:rgb(236, 176, 185) 
-    }
-    
-    .textosobre{
-        font-size: 30px;
-        text-align: center;
-        font-family:'Grape Nuts', serif ;
-    }
-    /*responsive html sobre nosotros*/
-    .englobador-index{
-        display: grid;
-        grid-template-areas: 
-        "nav nav"
-        "main aside"
-        "header header"
-        "footer footer";
-    
-    }
-    ul{
-    
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        
-        
-    }
-    .imagen{
-        width: 500px;
-        height: 500px;
-        margin: 60px;
 
-    /*responsive index*/
-
-    .regalos{
-        
-        width: 500px;
-        height: 500px;
-        margin: 60px;
-    }
-    /*responsive html regalos*/
-    .imagenesreloj{
-        width: 500px;
-        height: 500px;
-        margin: 60px;
-    }
-    .tituloreloj2{
-        display: flex;
-        justify-content: center;
-        font-size: 50px;
-        color: rgb(34, 28, 28)
-    }
-    /*responsive html relojes*/
-
-    @media screen and (min-width:1024px){
-    .contenedor3{
-    
-        display: flex;
-        flex-direction: row;
-        border: solid;
-        border-color:rgb(241, 222, 225) ;
-    }
-    .imagenjoya{
-        width: 500px;
-    height: auto    ;
-    margin: 60px;
-    }
-    .titulosobre{
-        font-size: 20px;
-        text-align: center;
-        font-family:'Lora', serif ;
-        color:rgb(236, 176, 185) ;
-    }
-    .h4sobre{
-        font-size: 20px;
-        text-align: center;
-        font-family:'Lora', serif ;
-        color:rgb(236, 176, 185) 
-    }
-    
-    .textosobre{
-        font-size: 30px;
-        text-align: center;
-        font-family:'Grape Nuts', serif ;
-    }
-    /*responsive html sobre nosotros +1024px*/
-    .contenedor4{
-        display: flex;
-        justify-content: center;
-    }
+@media screen and (max-width 764px) {
+   .grid-colum{
+     display:flex;
+     }
+}

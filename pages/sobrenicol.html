@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicol joyas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +16,99 @@
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
 </head>
 <body>
-    <ul  >
+    <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Relojes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="sobrenicol.html">Sobre nicol</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="regalos.html">Regalos empresariales</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="relojes.html">Relojes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="joyas.html">Joyas</a>
+            </li>
+         
+          </ul>
+       
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- <ul  >
          <li class="item"><a href="../index.html">Menu</a></li>
         <li class="item"><a href="sobrenicol.html">Sobre nicol</a> </li>
         <li class="item"><a href="regalos.html">Regalos empresariales</a></li>
         <li class="item"><a href="relojes.html">Relojes</a></li>
         <li class="item"><a href="joyas.html">Joyas</a></li>
-    </ul>
+    </ul>--> 
     <h2 class="titulosobre">Sobre Nosotros</h2>
 
     <h4 class="h4sobre">En esta parte de la página contaremos un poco sobre nosotros</h5>
     
-    <p class="textosobre">Nicol joyas es una mini empresa familiar en el cual se fundó en mayo del año 1995. Siempre fue atendida por sus dueños brindando la mejor atención al público y también ofreciendo la mejor mercaderia. Trabajamos con acero, plata y plata combinada con oro; tambien trabajamos con un amplio stock de marcas de relojeria como las son Tressa, Feraud, Orbital, entre otras. También nos dedicamos a hacer reparaciones de alhajas, reparaciones de relojería y grabados sobre metal. 
+    <p class="textosobre">Nicol joyas es una mini empresa familiar en el cual se fundó en mayo del año 1995.
+         Siempre fue atendida por sus dueños brindando la mejor atención al público y también ofreciendo la mejor mercaderia. 
+         Trabajamos con acero, plata y plata combinada con oro; tambien trabajamos con un amplio stock de marcas de relojeria como las son Tressa, Feraud, Orbital, entre otras. 
+         También nos dedicamos a hacer reparaciones de alhajas, reparaciones de relojería y grabados sobre metal. 
     </p>
 
-<div class="contenedor3">
+   <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="imagenc" src="imagenespages/depositphotos_204675720-stock-photo-different-goldsmiths-tools-on-the.jpg" class="d-block  " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulocarrusel">Arreglos de alahas y diseño de joyas.</h5>
+           
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imagenc" src="imagenespages/images.jpg" class="d-block  " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulocarrusel">Arreglos de relojerÌa.</h5>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="imagenc" src="imagenespages/Grabado-para-joyeria.jpg" class="d-block " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="titulocarrusel ">Grabados sobre metal.</h5>
+        
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+<!--<div class="contenedor3">
   
    <div> <img class="imagenjoya" src="imagenespages/depositphotos_204675720-stock-photo-different-goldsmiths-tools-on-the.jpg" alt="taller">
     <h5 class="h5">Reparaciones de alhajas, diseños a pedido.</h5></div>
@@ -36,8 +116,38 @@
     <h5 class="h5">Reparaciones de todo tipo de relojería.</h5></div>
     <div><img class="imagenjoya" src="imagenespages/Grabado-para-joyeria.jpg" alt="Grabados">
     <h5 class="h5">Grabados sobre metal.</h5></div>
-</div>
+</div>-->
 <hr>
+
+     
     
+      <footer>
+        <div class="container-fluid">
+          <div class="row p-5 bg-secondary text-white">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <p class="h3">Información útil</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <p class="h5footer mb-3">Redes y direcciones</p>
+              <div class="item mb-2">
+              <a class="text-white text-decoration-none" href="">Instagram</a>
+              </div>
+              <div class="item mb-2">
+                <a class="text-white text-decoration-none" href="https://goo.gl/maps/b2awYMon2Z8dU7cm9">Dirección</a>
+              </div>
+              <div class="item mb-2">
+                <a class="text-white text-decoration-none" href="">Teléfono</a>
+              </div>
+              
+              
+             
+            </div>
+
+          </div>
+
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

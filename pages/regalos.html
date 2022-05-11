@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicol joyas</title>
+    <script src="https://kit.fontawesome.com/b1b2946fc0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,54 +18,138 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet"> 
 </head>
 <body class="bodyregalos">
-    <ul>
-        <li class="item"><a href="../index.html">Menu</a></li>
-        <li class="item"><a href="sobrenicol.html">Sobre nicol</a> </li>
-        <li class="item"><a href="regalos.html">Regalos empresariales</a></li>
-        <li class="item"><a href="relojes.html">Relojes</a></li>
-        <li class="item"><a href="joyas.html">Joyas</a></li>
-    </ul>
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Relojes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="sobrenicol.html">Sobre nicol</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="regalos.html">Regalos empresariales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="relojes.html">Relojes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="joyas.html">Joyas</a>
+                </li>
+             
+              </ul>
+           
+            </div>
+          </div>
+        </div>
+      </nav>
     <h2 class="tituloregalos">Regalos empresariales</h2>
     <hr>
-    <div class="contenedor4">
-        <div><img class="regalos" src="imagenespages/6b9cf28d-d0f2-4d37-96d3-b8cf743b298c.jpg" alt="cartas boca">
-        <h5 class="tituloregalos">Caja de cartas boca jr artesanal</h5></div>
-        <div><img class="regalos" src="imagenespages/008b7ac1-fec7-4334-ba68-baf4a92d5b0b.jpg" alt="cartas independiente">
-        <h5 class="tituloregalos">Caja de cartas independiente artesanal</h5></div>
-        <div><img class="regalos" src="imagenespages/bc451b8c-ae60-41f4-be33-54e59d752689.jpg" alt="cartas river">
-        <h5 class="tituloregalos">Caja de cartas river plate artesanal</h5></div>
-        <div><img class="regalos" src="imagenespages/ec28affa-1b59-4dbd-802f-928f9f91cf09.jpg" alt="reloj mesa velez">
-        <h5 class="tituloregalos">Reloj de mesa velez sarsfield</h5></div>
-        <div><img class="regalos" src="imagenespages/946a7c4d-fe9e-4a19-b28e-27c3d06d4872.jpg" alt="reloj all boys">
-        <h5 class="tituloregalos">Reloj de mesa all boys</h5></div>
-        <div><img class="regalos" src="imagenespages/b63cdd0c-d249-4256-8d33-914aa432fb80.jpg" alt="Cuchillo madera">
-        <h5 class="tituloregalos">cuchillo madera y acero</h5></div>
-        <div><img class="regalos" src="imagenespages/cbd58f3a-d7f8-48bc-99c9-d635b758a200.jpg" alt="cuchillo acero">
-        <h5 class="tituloregalos">cuchillo madera y acero</h5></div>
+<main>
+    <div class="grid-colum">
+        <div class="card" style="width: 18rem;">
+            <img src="imagenespages/ec28affa-1b59-4dbd-802f-928f9f91cf09.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/946a7c4d-fe9e-4a19-b28e-27c3d06d4872.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/b63cdd0c-d249-4256-8d33-914aa432fb80.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/cbd58f3a-d7f8-48bc-99c9-d635b758a200.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/6b9cf28d-d0f2-4d37-96d3-b8cf743b298c.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/008b7ac1-fec7-4334-ba68-baf4a92d5b0b.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="imagenespages/bc451b8c-ae60-41f4-be33-54e59d752689.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
     </div>
-   
-    <table> 
-    <thead>
-        <tr>
-            <th>Precio relojes</th>
-            <th>Precio cartas</th>
-            <th>Precio cuchillos</th>
-        </tr>
-    </thead>
-    <tbody>
-        <td>
-            <th>$850</th>
-            <th>$850</th>
-            <th>$3500</th>
-        </td>
-      </tbody>
-    </table>
-       
-
-
-
-
   
+</main>
+    
+    <footer>
+        <div class="container-fluid">
+          <div class="row p-5 bg-secondary text-white">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <p class="h3">Información útil</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <p class="h5footer mb-3">Redes y direcciones</p>
+              <div class="item mb-2">
+              <a class="text-white text-decoration-none" href="">Instagram</a>
+              </div>
+              <div class="item mb-2">
+                <a class="text-white text-decoration-none" href="https://goo.gl/maps/b2awYMon2Z8dU7cm9">Dirección</a>
+              </div>
+              <div class="item mb-2">
+                <a class="text-white text-decoration-none" href="">Teléfono</a>
+              </div>
+              
+              
+             
+            </div>
+
+          </div>
+
+        </div>
+      </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    
 
 
