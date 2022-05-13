@@ -1,0 +1,290 @@
+body{
+    margin: 0%;
+    }
+    .englobador-index{
+        display: grid;
+        grid-template-areas: 
+        "nav nav"
+        "main main"
+      
+        "header header"
+        "footer footer";
+    
+    }
+    
+    
+    
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+    }  
+    
+    header{
+        grid-area: header;
+    }   
+    footer{
+        grid-area: footer;
+    }
+    /*grid y grids area del index*/
+    
+    .imagen-nav{
+    height: 130px;
+    width: 130px;
+    }
+    
+    .navbar{
+    background-color: rgb(255, 220, 242);
+    }
+    /*estilo lista index*/
+    .tituloproductos{
+        text-align: center;
+        font-family:  'Whisper', cursive;
+        font-size: 40px;
+        color: rgb(226, 148, 160);
+        margin-left: 200px;
+    }
+    
+    section{
+        display: flex;
+        
+        justify-content:center ;
+        align-items: center;
+        margin-left: 200px;
+        .contenedor{
+            display: flex;
+            flex-direction: center;
+            border: solid;
+            text-align: center;
+            align-items: center;
+            border-color:rgb(185, 139, 147)  ;
+            .card{
+                margin: 80px;
+                .btn{
+                    display: flex;
+                    justify-content: center;
+                    background-color: pink;
+                    border-color: pink;
+                    .card1{
+                        height: 381px;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    /* estilo main index */
+    
+    .titulo{
+     
+        justify-content: center;
+    }
+    
+    .titulosobre{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tituloheader{
+        text-align: center;
+         ;
+         color:rgb(236, 176, 185) ;
+         font-family: 'Lora', serif ;
+         
+    }
+    
+    .contenedor2{
+        display: flex;
+        justify-content: space-between;
+        border: solid;
+        border-color:rgb(241, 222, 225)
+    }
+    
+    .h5footer{
+        margin-left: 253px;
+        .item{
+            margin-left: 253px;
+        }
+    }
+    
+    
+    
+    /*estilos footer index*/
+     .contenedor3{
+        
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+        border: solid;
+        border-color:rgb(241, 222, 225) ;
+    }
+    
+    .h5{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    
+    .carousel-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 125vh;
+        height: 50vh;
+        .imagenc{
+            width: 700px;
+            height: 500px;
+            .titulocarrusel{
+                display: flex;
+                align-items: center;
+            }
+        }
+       
+    }
+    .carousel-control-prev{
+        margin-left: 500px;
+        
+    }
+    .carousel-control-next{
+    
+    
+        margin-right: 600px;
+    }
+    
+    .titulosobre{
+        font-size: 15px;
+        text-align: start;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185) ;
+        margin-top: 100px;
+        .titulosobre:hover{
+            transform: scale(2);
+            transition-delay: 1s;
+            transition-duration: 0.5s;
+        }
+    }
+    
+    .h4sobre{
+        font-size: 15px;
+        text-align: center;
+        font-family:'Lora', serif ;
+        color:rgb(236, 176, 185);
+        .h4sobre:hover{
+            transform: scale(2);
+            transition-delay: 1s;
+            transition-duration: 0.5s;
+        }
+        
+    }
+    
+    .textosobre{
+        font-size: 15px;
+        text-align: center;
+        font-family:'Grape Nuts', serif ;
+    } 
+    
+    /*estilo html sobre nicol*/ 
+    .grid-colum{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin:0 auto;
+        align-items: center;
+       
+    
+    }
+    
+    
+    
+    
+    .tituloregalos{
+        font-size: 30px;
+        text-align: center;
+        font-family:'Montserrat', sans-serif; 
+    }
+    
+    .bodyregalos{
+       background-color:rgb(247, 146, 161) ;
+       .tituloregalos{
+        font-size: 30px;
+        text-align: center;
+        font-family:'Montserrat', sans-serif; 
+        .grid-colum{
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 80%;
+            margin:0 auto;
+            align-items: center;
+           
+        
+        }
+    }
+    
+    
+    }
+    /*estilos html regalos*/
+    .bodyrelojes{
+        background-image: url(090ae2be-42af-4c0a-89d0-6eb21b081563.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .contenedor5{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    
+    .tituloreloj{
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 100px;
+    color: rgb(195, 153, 216);
+    margin-top: 50px;
+    }
+    /*estilo html relojes*/
+    .grid-colum2{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 80%;
+        margin:0 auto;
+    }
+    
+    .bodyjoyas{
+        background-image: url( 36dbc978-8411-41c8-ab08-4e2eb06f528e.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*estilo html joyas*/
+    
+    .englobador-index{
+        display: grid;
+        grid-template-areas: 
+        "nav nav"
+        "main main"
+      
+        "header header"
+        "footer footer";
+    
+    }
+    
+    
+    
+    nav{
+        grid-area: nav;
+    }
+    main{
+        grid-area: main;
+    }  
+    
+    header{
+        grid-area: header;
+    }   
+    footer{
+        grid-area: footer;
+    }
+    /*grid y grids area del index*/
+    
+   
