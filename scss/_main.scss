@@ -6,7 +6,6 @@ body{
         grid-template-areas: 
         "nav nav"
         "main main"
-      
         "header header"
         "footer footer";
     
@@ -29,22 +28,10 @@ body{
     }
     /*grid y grids area del index*/
     
-    .imagen-nav{
-    height: 130px;
-    width: 130px;
-    }
     
-    .navbar{
-    background-color: rgb(255, 220, 242);
-    }
     /*estilo lista index*/
-    .tituloproductos{
-        text-align: center;
-        font-family:  'Whisper', cursive;
-        font-size: 40px;
-        color: rgb(226, 148, 160);
-        margin-left: 200px;
-    }
+    
+    
     
     section{
         display: flex;
@@ -77,10 +64,7 @@ body{
     
     /* estilo main index */
     
-    .titulo{
-     
-        justify-content: center;
-    }
+
     
     .titulosobre{
         display: flex;
@@ -102,12 +86,7 @@ body{
         border-color:rgb(241, 222, 225)
     }
     
-    .h5footer{
-        margin-left: 253px;
-        .item{
-            margin-left: 253px;
-        }
-    }
+   
     
     
     
@@ -286,5 +265,5 @@ body{
         grid-area: footer;
     }
     /*grid y grids area del index*/
-    
-   
+  
+  

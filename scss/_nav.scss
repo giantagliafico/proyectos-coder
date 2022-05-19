@@ -1,0 +1,15 @@
+@mixin size ($alto,$ancho,$espaciado) {
+    height: $alto;
+    width: $ancho;
+    margin: $espaciado;
+    
+}
+$color-primary:#ffdcf2;
+
+
+.imagen-nav{
+   @include size (130px,130px,0px)
+    }
+    
+    .navbar{
+    background-color: $color-primary; }

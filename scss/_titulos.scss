@@ -1,0 +1,15 @@
+$titulo:(
+    titulo1:#ffdcf2,
+    titulo2:#ecb0b9,
+);
+@each $titul, $color in $titulo {
+    .titul-#{$titul} {
+        color: $color;
+        text-align: center;
+        font-family:  'Whisper', cursive;
+        font-size: 40px;
+        color: rgb(226, 148, 160);
+        margin-left: 200px;
+    }
+    
+}
