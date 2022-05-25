@@ -23,7 +23,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 200px; }
+  margin-left: 100px;
+  margin-right: 100px; }
   section .contenedor {
     display: flex;
     flex-direction: center;
@@ -201,7 +202,8 @@ footer {
   font-family: 'Whisper', cursive;
   font-size: 40px;
   color: #e294a0;
-  margin-left: 200px; }
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .titul-titulo2 {
   color: #ecb0b9;
@@ -209,7 +211,12 @@ footer {
   font-family: 'Whisper', cursive;
   font-size: 40px;
   color: #e294a0;
-  margin-left: 200px; }
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .h5footer, .item {
   margin-left: 253px; }
+
+@media screen and (max-width: 1024px) {
+  .contenedor {
+    flex-direction: column; } }
