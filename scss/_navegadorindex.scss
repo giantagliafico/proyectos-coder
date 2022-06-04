@@ -1,0 +1,27 @@
+.navbar-brand{
+    font-size: 30px;
+    font-family:'Karla', sans-serif; 
+}
+.lista-index{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 10px;
+    .lista-li{
+        margin: 10px;
+        .lista-li-a{
+            color:white;
+            text-decoration: none;
+            font-weight:bold ;
+            font-family: 'Oswald', sans-serif;
+            font-size: 25px;
+
+
+        }
+    }
+   
+}
+.lista-ind .lista-index .lista-li .lista-li-a:hover{
+    color:rgb(68, 66, 66);
+    transition:0.5s;
+}

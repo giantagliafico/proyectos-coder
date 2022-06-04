@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0%; }
 
@@ -40,7 +41,7 @@ section {
         background-color: pink;
         border-color: pink; }
         section .contenedor .card .btn .card1 {
-          height: 381px; }
+          height: 300px; }
 
 /* estilo main index */
 .titulosobre {
@@ -89,17 +90,6 @@ section {
 .carousel-control-next {
   margin-right: 600px; }
 
-.titulosobre {
-  font-size: 15px;
-  text-align: start;
-  font-family: 'Lora', serif;
-  color: #ecb0b9;
-  margin-top: 100px; }
-  .titulosobre .titulosobre:hover {
-    transform: scale(2);
-    transition-delay: 1s;
-    transition-duration: 0.5s; }
-
 .h4sobre {
   font-size: 15px;
   text-align: center;
@@ -109,11 +99,6 @@ section {
     transform: scale(2);
     transition-delay: 1s;
     transition-duration: 0.5s; }
-
-.textosobre {
-  font-size: 15px;
-  text-align: center;
-  font-family: 'Grape Nuts', serif; }
 
 /*estilo html sobre nicol*/
 .grid-colum {
@@ -188,6 +173,17 @@ footer {
   grid-area: footer; }
 
 /*grid y grids area del index*/
+.bg-nav {
+  height: 100px; }
+
+.imagenes_index {
+  width: 200px;
+  height: 220px; }
+
+.imagenes_index1 {
+  height: 250px;
+  width: 200px; }
+
 .imagen-nav {
   height: 130px;
   width: 130px;
@@ -217,6 +213,297 @@ footer {
 .h5footer, .item {
   margin-left: 253px; }
 
+@media screen and (max-width: 1440px) {
+  .clase11 {
+    margin-left: 0% !important;
+    height: 130px;
+    width: 100% !important;
+    background-color: rgba(5, 7, 12, 0.4) !important; }
+  .card2 {
+    margin-left: 0px !important; }
+  .categoria-relojes {
+    margin-left: 20px !important; }
+  .containerr {
+    margin-left: 0px !important;
+    margin-right: 0px !important; } }
+
 @media screen and (max-width: 1024px) {
   .contenedor {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .clase11 {
+    margin-left: 0% !important;
+    height: 130px;
+    width: 100% !important;
+    background-color: rgba(5, 7, 12, 0.4) !important; }
+  .card2 {
+    margin-left: 50px !important; }
+  .categoria-relojes {
+    margin-left: 20px !important; }
+  #slide1 {
+    margin: 0px;
+    width: 100%; }
+  #slide2 {
+    margin: 0%;
+    width: 100%; }
+  #slide3 {
+    margin-left: 0px;
+    width: 100%; }
+  .texto {
+    margin-left: 0px !important; }
+  .imagenes {
+    margin-right: 0px !important; } }
+
+@media screen and (max-width: 764px) {
+  .clase11 {
+    margin-left: 0% !important;
+    height: 130px;
+    width: 100% !important;
+    background-color: rgba(5, 7, 12, 0.4) !important; }
+  .containerr {
+    display: flex !important;
+    flex-direction: column;
+    width: auto !important; }
+  .texto {
+    width: auto !important; }
+  .talleres {
+    width: 500px !important;
+    margin-left: 50px !important; }
+  .h4talleres {
+    margin-left: 50px !important; }
+  .clase {
+    height: 200px !important; }
+  .clase11 {
+    height: 200px !important; }
+  .clase12 {
+    margin-left: 0px !important; } }
+
+@media screen and (max-width: 443px) {
+  .h5footer, .item {
+    margin-left: 150px; }
+  .p-5 {
+    padding: 0 !important; }
+  .talleres {
+    width: 290px !important;
+    margin-left: 20px; }
+  .h4talleres {
+    margin-left: 20px; }
+  section {
+    margin-left: 0px !important;
+    margin-right: 0px !important; } }
+
+.carruselindex {
+  width: 800px;
+  padding: 30px; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+ul.slider {
+  position: relative;
+  height: 300px; }
+
+ul.slider li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  height: inherit;
+  transition: 0.5s; }
+
+ul.slider li img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+ul.slider li:first-child {
+  opacity: 1; }
+
+ul.slider li:target {
+  opacity: 1; }
+
+.menu {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center; }
+
+.menu .menu2 {
+  display: flex;
+  text-align: center; }
+
+.menu .menu2 .menu3 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: gray;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+  margin: 20px;
+  background-color: none; }
+
+.imagen1 {
+  margin-left: 33.3%;
+  margin-right: 33.3%; }
+
+.imagen2 {
+  width: 100%; }
+
+.imagen3 {
+  margin-left: 33.3%;
+  margin-right: 33.3; }
+
+.containerr {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 80%;
+  height: 100;
+  margin-left: 250px;
+  margin-right: 100px; }
+
+.titulosobre {
+  font-size: 30px;
+  text-align: start;
+  font-family: 'Lora', serif;
+  color: #ecb0b9;
+  margin-top: 120px; }
+
+.textosobre {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: 'Grape Nuts', serif; }
+
+.talleres {
+  width: 420px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 40px; }
+
+.h4talleres {
+  font-size: 18px;
+  margin-left: 125px; }
+
+.imagenes {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 50px;
+  width: 600px; }
+
+.texto {
+  width: 400px;
+  margin-left: 150px; }
+
+.clase {
+  height: 130px;
+  background-image: url("../pages/imagenespages/joyería-oro-40521659.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .clase .clase11 {
+    margin-left: 22%;
+    height: 130px;
+    width: 1200px;
+    background-color: rgba(5, 7, 12, 0.4); }
+    .clase .clase11 .clase12 {
+      display: block;
+      justify-content: center;
+      margin-top: 71px;
+      margin-left: 25px;
+      font-size: 22px;
+      color: aliceblue;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande' , 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.card {
+  background-color: #ffdcf2;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.imag {
+  width: 250px;
+  height: 250px; }
+
+.titulorelojes {
+  margin-top: 10px;
+  margin-left: 136px; }
+
+.categoria-relojes {
+  margin-left: 200px;
+  margin-top: 15px; }
+
+.listas-html .items-html {
+  list-style: none; }
+  .listas-html .items-html .items-html1 {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffdcf2;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    z-index: 1; }
+    .listas-html .items-html .items-html1:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-top: 2px solid #ffdcf2;
+      border-bottom: 2px solid #ffdcf2;
+      transform: scaleY(2);
+      opacity: 0;
+      transition: .3s; }
+    .listas-html .items-html .items-html1:after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #ffdcf2;
+      transform: scale(0);
+      opacity: 0;
+      transition: .3s;
+      z-index: -1; }
+    .listas-html .items-html .items-html1:hover {
+      color: #fff; }
+      .listas-html .items-html .items-html1:hover:before {
+        transform: scaleY(1);
+        opacity: 1; }
+      .listas-html .items-html .items-html1:hover:after {
+        transform: scaleY(1);
+        opacity: 1; }
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Karla', sans-serif; }
+
+.lista-index {
+  display: flex;
+  list-style-type: none;
+  padding: 10px 20px;
+  margin: 10px; }
+  .lista-index .lista-li {
+    margin: 10px; }
+    .lista-index .lista-li .lista-li-a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Oswald', sans-serif;
+      font-size: 25px; }
+
+.lista-ind .lista-index .lista-li .lista-li-a:hover {
+  color: #444242;
+  transition: 0.5s; }

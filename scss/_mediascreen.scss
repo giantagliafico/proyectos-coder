@@ -1,4 +1,26 @@
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px){
+   .clase11{
+      margin-left: 0% !important;
+      height: 130px;
+      width: 100% !important;
+      background-color: rgba(5, 7, 12, 0.40) !important;
+     }
+     .card2{
+        margin-left: 0px !important;
+     }
+
+     .categoria-relojes{
+      margin-left: 20px !important;
+   }
+   .containerr{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+   }
+  
+}
+
+
+@media screen and (max-width: 1024px) {
    
     
     .contenedor{
@@ -6,12 +28,93 @@
               
            
    }
-          
+   .clase11{
+      margin-left: 0% !important;
+      height: 130px;
+      width: 100% !important;
+      background-color: rgba(5, 7, 12, 0.40) !important;
+     }
+   .card2{
+      margin-left: 50px !important;
+   }
+   .categoria-relojes{
+      margin-left: 20px !important;
+   }
+   #slide1{
+      margin: 0px;
+      width: 100%;
+      
+   }
+   #slide2{
+      margin: 0%;
+      width: 100%;
+      
 
-
-   
+   }
+   #slide3{
+      margin-left: 0px;
+      width: 100%;
+   }
+   .texto{
+   margin-left: 0px !important;
+   }
+   .imagenes{
+      margin-right: 0px !important;
+   }
+  
     
- }
- @media screen and (max-width){
-     
- }
+}
+ @media screen and (max-width:764px){
+   
+   .clase11{
+          margin-left: 0% !important;
+          height: 130px;
+          width: 100% !important;
+          background-color: rgba(5, 7, 12, 0.40) !important;
+         }
+.containerr{
+   display: flex !important;
+   flex-direction: column;
+   width: auto !important;
+}
+.texto{
+   width: auto !important;
+}
+.talleres{
+   width: 500px !important;
+   margin-left: 50px !important;
+}
+.h4talleres{
+   margin-left: 50px !important;
+}
+.clase{
+   height: 200px !important;
+}
+.clase11{
+   height: 200px !important;
+}
+.clase12 {
+   margin-left: 0px !important;
+}
+        
+}
+@media screen and (max-width: 443px){
+   .h5footer{
+      margin-left: 150px;
+   }
+   .p-5{
+      padding: 0 !important;
+   }
+   .talleres{
+      width: 290px !important;
+      margin-left: 20px;
+   }
+   .h4talleres{
+      margin-left: 20px;
+   }
+   section{
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+   }
+  
+}

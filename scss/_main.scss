@@ -30,9 +30,8 @@ body{
     
     
     /*estilo lista index*/
-    
-    
-
+ 
+  
     section{
         display: flex;
         
@@ -55,7 +54,7 @@ body{
                     background-color: pink;
                     border-color: pink;
                     .card1{
-                        height: 381px;
+                        height: 300px;
                     }
                 }
             }
@@ -135,18 +134,6 @@ body{
         margin-right: 600px;
     }
     
-    .titulosobre{
-        font-size: 15px;
-        text-align: start;
-        font-family:'Lora', serif ;
-        color:rgb(236, 176, 185) ;
-        margin-top: 100px;
-        .titulosobre:hover{
-            transform: scale(2);
-            transition-delay: 1s;
-            transition-duration: 0.5s;
-        }
-    }
     
     .h4sobre{
         font-size: 15px;
@@ -161,11 +148,7 @@ body{
         
     }
     
-    .textosobre{
-        font-size: 15px;
-        text-align: center;
-        font-family:'Grape Nuts', serif ;
-    } 
+    
     
     /*estilo html sobre nicol*/ 
     .grid-colum{
@@ -267,4 +250,14 @@ body{
     }
     /*grid y grids area del index*/
   
-  
+   .bg-nav{
+       height: 100px;
+   }
+   .imagenes_index{
+       width: 200px;
+       height: 220px;
+   }
+   .imagenes_index1{
+       height: 250px;
+       width: 200px;
+   }
