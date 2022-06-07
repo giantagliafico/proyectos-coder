@@ -184,6 +184,32 @@ footer {
   height: 250px;
   width: 200px; }
 
+.redes {
+  margin-top: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: center; }
+  .redes .botton-wathssapp {
+    width: 200px;
+    height: 50px;
+    background-color: #60d222;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .redes .botton-wathssapp .imagen-wsp {
+      height: 35px;
+      width: 35px; }
+    .redes .botton-wathssapp .contactame {
+      text-decoration: none;
+      color: black;
+      margin-left: 5px;
+      font-size: 17px; }
+
+.btn {
+  background-color: #ffdcf2;
+  border: none !important; }
+
 .imagen-nav {
   height: 130px;
   width: 130px;

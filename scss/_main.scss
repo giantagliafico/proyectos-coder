@@ -261,3 +261,35 @@ body{
        height: 250px;
        width: 200px;
    }
+   .redes{
+       margin-top: 20px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+    .botton-wathssapp{
+        width: 200px;
+        height: 50px;
+        background-color:rgb(96, 210, 34) ;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .imagen-wsp{
+            height: 35px;
+            width: 35px;    
+        }
+        .contactame{
+            text-decoration: none;
+            color: black;
+            margin-left: 5px;
+            font-size: 17px;
+        }
+       }
+
+   }
+   .btn{
+       background-color:$color-primary ;
+       border: none !important;
+   }
+  
+   
