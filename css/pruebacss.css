@@ -4,7 +4,10 @@ body {
 
 .englobador-index {
   display: grid;
-  grid-template-areas: "nav nav" "main main" "header header" "footer footer"; }
+  grid-template-areas: "nav nav"
+ "main main"
+ "header header"
+ "footer footer"; }
 
 nav {
   grid-area: nav; }
@@ -158,7 +161,10 @@ section {
 /*estilo html joyas*/
 .englobador-index {
   display: grid;
-  grid-template-areas: "nav nav" "main main"  "header header" "footer footer"; }
+  grid-template-areas: "nav nav"
+ "main main"
+  "header header"
+ "footer footer"; }
 
 nav {
   grid-area: nav; }
@@ -338,7 +344,7 @@ footer {
     padding: 0 !important; }
   .talleres {
     width: 310px !important;
-    margin-left: 0px !important; }
+    margin-left: 15px !important; }
   .h4talleres {
     margin-left: 20px; }
   section {
@@ -476,7 +482,8 @@ ul.slider li:target {
       margin-left: 25px;
       font-size: 22px;
       color: aliceblue;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande' , 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'
+ , 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .card {
   background-color: #ffdcf2;
