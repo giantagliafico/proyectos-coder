@@ -192,7 +192,7 @@ footer {
   .redes .botton-wathssapp {
     width: 200px;
     height: 50px;
-    background-color: #60d222;
+    background-color: #0df053;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -209,6 +209,25 @@ footer {
 .btn {
   background-color: #ffdcf2;
   border: none !important; }
+
+.btn-wsp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  bottom: 300px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff; }
 
 .imagen-nav {
   height: 130px;
@@ -277,7 +296,14 @@ footer {
   .texto {
     margin-left: 0px !important; }
   .imagenes {
-    margin-right: 0px !important; } }
+    margin-right: 0px !important;
+    width: auto !important; }
+  .btn-wsp {
+    display: none; }
+  .item {
+    margin-left: 0px !important; }
+  .h5footer, .item {
+    margin-left: 0px !important; } }
 
 @media screen and (max-width: 764px) {
   .clase11 {
@@ -301,7 +327,9 @@ footer {
   .clase11 {
     height: 200px !important; }
   .clase12 {
-    margin-left: 0px !important; } }
+    margin-left: 0px !important; }
+  .imagenes {
+    width: auto !important; } }
 
 @media screen and (max-width: 443px) {
   .h5footer, .item {
@@ -309,13 +337,17 @@ footer {
   .p-5 {
     padding: 0 !important; }
   .talleres {
-    width: 290px !important;
-    margin-left: 20px; }
+    width: 310px !important;
+    margin-left: 0px !important; }
   .h4talleres {
     margin-left: 20px; }
   section {
     margin-left: 0px !important;
-    margin-right: 0px !important; } }
+    margin-right: 0px !important; }
+  .clase {
+    height: 260px !important; }
+  .clase11 {
+    height: 260px !important; } }
 
 .carruselindex {
   width: 800px;
@@ -455,6 +487,10 @@ ul.slider li:target {
 .imag {
   width: 250px;
   height: 250px; }
+
+.imag3 {
+  width: 200px;
+  height: 200px; }
 
 .titulorelojes {
   margin-top: 10px;

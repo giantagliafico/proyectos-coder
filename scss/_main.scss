@@ -269,7 +269,7 @@ body{
     .botton-wathssapp{
         width: 200px;
         height: 50px;
-        background-color:rgb(96, 210, 34) ;
+        background-color:#0df053 ;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -291,5 +291,26 @@ body{
        background-color:$color-primary ;
        border: none !important;
    }
+   .btn-wsp{
+       position: fixed;
+       width: 60px;
+       height: 60px;
+       line-height: 60px;
+       bottom: 300px;
+       right: 30px;
+       background-color: #0df053;
+       color: #fff;
+       border-radius: 50px;
+      text-align: center;
+       box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+       z-index:100;
+     
+    }
+    .btn-wsp:hover{
+        text-decoration: none;
+        color:#0df053;
+        background: #fff;
+    } 
+   
   
    

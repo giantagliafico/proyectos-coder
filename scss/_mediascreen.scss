@@ -16,6 +16,7 @@
       margin-left: 0px !important;
       margin-right: 0px !important;
    }
+   
   
 }
 
@@ -60,9 +61,18 @@
    }
    .imagenes{
       margin-right: 0px !important;
+      width: auto !important;
    }
-  
-    
+ 
+  .btn-wsp{
+     display: none;
+  }
+  .item{
+     margin-left:0px !important;
+}
+.h5footer{
+   margin-left: 0px !important;
+}
 }
  @media screen and (max-width:764px){
    
@@ -95,7 +105,12 @@
 }
 .clase12 {
    margin-left: 0px !important;
+
 }
+.imagenes{
+   width: auto !important;
+}
+
         
 }
 @media screen and (max-width: 443px){
@@ -106,8 +121,8 @@
       padding: 0 !important;
    }
    .talleres{
-      width: 290px !important;
-      margin-left: 20px;
+      width: 310px !important;
+      margin-left: 0px !important;
    }
    .h4talleres{
       margin-left: 20px;
@@ -116,5 +131,11 @@
       margin-left: 0px !important;
       margin-right: 0px !important;
    }
- 
+   .clase{
+      height: 260px !important;
+   }
+   .clase11{
+      height: 260px !important;
+   }
+   
 }
